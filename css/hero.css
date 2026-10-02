@@ -1,0 +1,97 @@
+.hero{
+    position: relative;
+    display: flex;
+    height: 750px;
+    overflow: hidden;
+}
+
+.hero-image{
+    width:60%;
+}
+
+.hero-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+.hero-content{
+    position:relative;
+    width: 40%;
+    background: var(--gold);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    color: var(--textdblue);
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    color: var(--textdblue);
+    line-height: 1.5;
+    min-width: 520px;
+    margin-bottom: 80px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    padding: 18px 42px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: .3s;
+}
+
+.primary {
+    background: var(--btnblue);
+    color: var(--white);
+}
+
+.secondary {
+    background: var(--btnwhite);
+    color: var(--black);
+}
+
+.hero-content::before{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:-80px;
+    width:180px;
+    background:var(--gold);
+    transform:skewX(-12deg);
+    transform-origin:right;
+    z-index:-1;
+}
+
+.wave{
+    position:absolute;
+    left:0;
+    bottom:-2px;
+    width:100%;
+    height:140px;
+    z-index:3;
+}
+
+.wave svg{
+    width:100%;
+    height:100%;
+    display:block;
+}

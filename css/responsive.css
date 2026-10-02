@@ -1,0 +1,681 @@
+/* =====================================================
+   TABLET
+   Schermen tot ongeveer 1200px
+===================================================== */
+
+@media (max-width: 1200px) {
+
+    /* =========================
+       NAVBAR
+    ========================= */
+
+    .navbar {
+        padding: 0 30px;
+        grid-template-columns: 150px 1fr;
+    }
+
+    .nav-links {
+        gap: 30px;
+    }
+
+    .nav-links a {
+        font-size: 20px;
+    }
+
+    .logo img {
+        width: 160px;
+        top: -20px;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+        height: 650px;
+    }
+
+    .hero-content {
+        padding: 50px 35px;
+    }
+
+    .hero-content h1 {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+        min-width: 0;
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+
+    
+
+    /* =========================
+       WELCOME
+    ========================= */
+
+    .welcome {
+        gap: 40px;
+        margin: 80px auto;
+    }
+
+    .welcome-content {
+        min-width: 0;
+        margin-left: 30px;
+    }
+
+    .welcome-image {
+        margin-right: 30px;
+    }
+
+    .subtitle {
+        margin-left: 0;
+        font-size: 1.6rem;
+    }
+
+    .welcome h2 {
+        margin-left: 0;
+        font-size: 2.4rem;
+        margin-bottom: 50px;
+    }
+
+    .welcome p {
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+
+    /* =========================
+       SPECIALITEITEN
+    ========================= */
+
+    .cards {
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .card {
+        height: 350px;
+    }
+
+    /* =========================
+       UITLEG
+    ========================= */
+
+    .u-cards {
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .u-card {
+        padding: 20px 10px;
+    }
+
+    .icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .icon-h {
+        font-size: 1.6rem;
+    }
+
+    .icon-p {
+        font-size: 1.2rem;
+    }
+
+    /* =========================
+       FOTO'S
+    ========================= */
+
+    .image-cards {
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .image-card {
+        height: 220px;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    .footer {
+        height: auto;
+    }
+
+    .footer-cards {
+        gap: 10px;
+    }
+
+    .footer-card {
+        padding: 15px 10px;
+    }
+
+    .img-footer {
+        width: 250px;
+        height: auto;
+    }
+
+    .footer-p {
+        font-size: 1.2rem;
+    }
+
+    .tijden {
+        grid-template-columns: 130px 130px;
+        font-size: 1rem;
+    }
+
+    .contact p {
+        font-size: 1rem;
+    }
+
+}
+
+/* =====================================================
+   MOBIEL
+   Schermen tot 768px
+===================================================== */
+
+@media (max-width: 768px) {
+
+    /* =========================
+       DEMO BALK
+    ========================= */
+
+    .demo-text {
+        height: 35px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* =========================
+       DEMO WATERMARK
+    ========================= */
+
+    .demo-watermark {
+        font-size: 30px;
+    }
+
+    /* =========================
+       NAVBAR
+    ========================= */
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        min-height: 120px;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .logo {
+        position: relative;
+    }
+
+    .logo img {
+        position: relative;
+        width: 140px;
+        top: 0;
+        left: 0;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 25px;
+        padding: 0;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: 350px;
+    }
+
+    .hero-content {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 60px 25px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+        margin-bottom: 25px;
+    }
+
+    .hero-content p {
+        min-width: 0;
+        width: 100%;
+        max-width: 500px;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+
+    .hero-content::before {
+        display: none;
+    }
+
+    .buttons {
+        gap: 15px;
+    }
+
+    .btn {
+        padding: 14px 25px;
+        font-size: 17px;
+    }
+
+    .wave {
+        height: 100px;
+    }
+
+    /* =========================
+       WELCOME
+    ========================= */
+
+    .welcome {
+        flex-direction: column;
+        margin: 60px 0;
+        padding: 0 25px;
+        gap: 40px;
+    }
+
+    .welcome-content {
+        width: 100%;
+        min-width: 0;
+        margin-left: 0;
+    }
+
+    .welcome-image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .welcome-image img {
+        width: 100%;
+    }
+
+    .subtitle {
+        margin-left: 0;
+        font-size: 1.4rem;
+    }
+
+    .welcome h2 {
+        margin-left: 0;
+        font-size: 2.2rem;
+        margin-bottom: 35px;
+    }
+
+    .welcome p {
+        margin-left: 0;
+        font-size: 1.1rem;
+    }
+
+    /* =========================
+       MENU / SPECIALITEITEN
+    ========================= */
+
+    .menu {
+        min-height: auto;
+        padding-bottom: 40px;
+    }
+
+    .tekst-p {
+        padding: 60px 20px 10px;
+        font-size: 1.5rem;
+    }
+
+    .tekst-h1 {
+        font-size: 2.2rem;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .card {
+        height: 300px;
+        margin-bottom: 0;
+    }
+
+    /* =========================
+       WAAROM MELIS
+    ========================= */
+
+    .uitleg {
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+    .text-h {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+
+    .u-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .u-card {
+        min-height: auto;
+        margin-bottom: 0;
+        padding: 25px 10px;
+    }
+
+    .icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .icon-h {
+        font-size: 1.4rem;
+        padding: 5px;
+    }
+
+    .icon-p {
+        font-size: 1rem;
+        padding: 10px 5px;
+    }
+
+    /* =========================
+       FOTO'S
+    ========================= */
+
+    .images {
+        padding-bottom: 30px;
+    }
+
+    .images-h3 {
+        font-size: 1.7rem;
+        padding: 35px 20px;
+    }
+
+    .image-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .image-card {
+        width: 100%;
+        height: 200px;
+    }
+
+    .image-btn {
+        width: 200px;
+        font-size: 1rem;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    .footer {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .footer-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .footer-card {
+        min-height: auto;
+        padding: 10px;
+    }
+
+    .img-footer {
+        width: 180px;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .footer-p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-top: 10px;
+    }
+
+    .socials {
+        margin-top: 25px;
+        gap: 15px;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-h,
+    .contact-h {
+        font-size: 1.4rem;
+    }
+
+    .tijden {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        font-size: 0.9rem;
+    }
+
+    .contact {
+        gap: 15px;
+    }
+
+    .contact p {
+        font-size: 0.9rem;
+        padding: 5px 0;
+    }
+
+    .item-contact {
+        gap: 8px;
+    }
+
+    .icon-contact {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+/* =====================================================
+   KLEINE TELEFOON
+   Schermen tot 480px
+===================================================== */
+
+@media (max-width: 480px) {
+
+    /* =========================
+       DEMO
+    ========================= */
+
+    .demo-text {
+        font-size: 11px;
+    }
+
+    .demo-watermark {
+        font-size: 22px;
+    }
+
+    /* =========================
+       NAVBAR
+    ========================= */
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .nav-links {
+        gap: 12px 18px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero-image {
+        height: 280px;
+    }
+
+    .hero-content {
+        padding: 50px 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .wave {
+        height: 80px;
+    }
+
+    /* =========================
+       WELCOME
+    ========================= */
+
+    .welcome {
+        padding: 0 20px;
+        margin: 50px 0;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .welcome h2 {
+        font-size: 1.9rem;
+    }
+
+    .welcome p {
+        font-size: 1rem;
+    }
+
+    /* =========================
+       MENU
+    ========================= */
+
+    .tekst-p {
+        font-size: 1.3rem;
+    }
+
+    .tekst-h1 {
+        font-size: 1.9rem;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        height: 280px;
+    }
+
+    /* =========================
+       UITLEG
+    ========================= */
+
+    .text-h {
+        font-size: 1.8rem;
+    }
+
+    .u-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .u-card {
+        padding: 20px;
+    }
+
+    .icon-p {
+        font-size: 1rem;
+    }
+
+    /* =========================
+       FOTO'S
+    ========================= */
+
+    .images-h3 {
+        font-size: 1.5rem;
+    }
+
+    .image-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .image-card {
+        height: 250px;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    .footer-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-card {
+        text-align: center;
+    }
+
+    .tijden {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+}

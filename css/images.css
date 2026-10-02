@@ -1,0 +1,48 @@
+.images {
+    min-height: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--creme);
+}
+
+.images-h3 {
+    color: var(--textblue);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 40px 0;
+    margin: 0;
+}
+
+.image-cards {
+    display: flex;
+    gap: 30px;
+    padding: 10px 20px;
+}
+
+.image-card {
+    flex: 1;
+    height: 250px;
+    width: 300px;
+    background-color: var(--grey);
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.image-btn {
+    width: 200px;
+    height: 50px;
+    background-color: var(--btnblue);
+    color: var(--white);
+    border-radius: 10px;
+    border: 2px solid var(--btnwhite);
+    font-size: 1.25rem;
+    margin: 40px 0 20px;
+    cursor: pointer;
+}

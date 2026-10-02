@@ -1,0 +1,48 @@
+.uitleg {
+    min-height: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.text-h {
+    color: var(--gold);
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+.u-cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+
+.u-card {
+    flex: 1;
+    min-height: 350px;
+    margin-bottom: 40px;
+    padding: 30px 20px;
+}
+
+.icon {
+    color: var(--gold);
+    width: 120px;
+    height: 120px;
+    stroke-width: 1.25;
+    
+}
+
+.icon-h {
+    color: var(--textdblue);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 5px 15px;
+}
+
+.icon-p {
+    color: var(--textblue);
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 15px;
+}
